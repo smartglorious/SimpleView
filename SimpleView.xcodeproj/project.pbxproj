@@ -24,6 +24,7 @@
 		5577FE2216A9258000A469EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5577FDFA16A9258000A469EC /* Foundation.framework */; };
 		5577FE2A16A9258000A469EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5577FE2816A9258000A469EC /* InfoPlist.strings */; };
 		5577FE2D16A9258000A469EC /* SimpleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5577FE2C16A9258000A469EC /* SimpleViewTests.m */; };
+		5577FE4116A9318A00A469EC /* subViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5577FE4016A9318A00A469EC /* subViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		5577FE2916A9258000A469EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5577FE2B16A9258000A469EC /* SimpleViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewTests.h; sourceTree = "<group>"; };
 		5577FE2C16A9258000A469EC /* SimpleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewTests.m; sourceTree = "<group>"; };
+		5577FE3F16A9318A00A469EC /* subViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subViewController.h; sourceTree = "<group>"; };
+		5577FE4016A9318A00A469EC /* subViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = subViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				5577FE0716A9258000A469EC /* AppDelegate.h */,
 				5577FE0816A9258000A469EC /* AppDelegate.m */,
 				5577FE1016A9258000A469EC /* MainStoryboard_iPhone.storyboard */,
+				5577FE3F16A9318A00A469EC /* subViewController.h */,
+				5577FE4016A9318A00A469EC /* subViewController.m */,
 				5577FE1316A9258000A469EC /* MainStoryboard_iPad.storyboard */,
 				5577FE1616A9258000A469EC /* ViewController.h */,
 				5577FE1716A9258000A469EC /* ViewController.m */,
@@ -277,6 +282,7 @@
 				5577FE0516A9258000A469EC /* main.m in Sources */,
 				5577FE0916A9258000A469EC /* AppDelegate.m in Sources */,
 				5577FE1816A9258000A469EC /* ViewController.m in Sources */,
+				5577FE4116A9318A00A469EC /* subViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				5577FE3216A9258000A469EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5577FE3316A9258000A469EC /* Build configuration list for PBXNativeTarget "SimpleViewTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				5577FE3516A9258000A469EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
